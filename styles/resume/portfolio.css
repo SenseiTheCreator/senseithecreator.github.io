@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page-container {
+	display: flex;
+	max-width: 980px;
+	margin: 20px auto;
+    border: 5px solid grey;   /* рамка */
+    display: flex;
+    background-color: white;
+}
+.left-side {
+	width: 25%;
+	min-height: 800px; /* Мінімальна висота лівої частини */
+	background-color: #3a5e90;
+	color: white;
+	padding: 20px; /* Відступи всередині блоку */
+}
+.avatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%; /* Робимо зображення круглим */
+	overflow: hidden; /* Обрізаємо зайве */
+	margin: 20px auto;
+}
+
+.image {
+	width: 100%;
+}
+
+.left-block {
+	margin-top: 20px;
+}
+
+.line {
+	border: none;
+	height: 1px;
+	background-color: white;
+	margin: 10px 0;
+}
+
+.info-list {
+	list-style: none;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.info-list li {
+	margin-bottom: 10px;
+    list-style: none;
+}
+.languages {
+    list-style: none;
+    font-size: 14px;
+}
+
+.languages li {
+    display: flex; /* для вирівнювання тексту по ширині тому  що елементи не вирівнюються по ширині */
+    justify-content: space-between; /* Розподіляємо простір між елементами */
+    margin-bottom: 8px;
+}
+
+
+.right-side {
+	width: 75%;
+	min-height: 800px;
+	padding: 20px;
+}
+.right-block {
+	margin-top: 20px;
+}
+.line2 {
+	border: none;
+	height: 1px;
+	background-color: black;
+	margin: 20px 0;
+}
+.right-block p {
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+.date {
+	font-size: 13px;
+	text-align: right;
+	color: gray;
+}
+.specialty {
+	font-size: 14px;
+	color: gray;
+}
+.right-side li {
+  	display: inline;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.right-block li {
+  display: block;
+  padding-right: 5px;
+}
+.menu {
+	list-style: none;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.btn {
+	display: block;
+	width: 200px;
+	height: 35px;
+	border: 1px solid blueviolet;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	color: blueviolet;
+	margin-top: 10px;
+}
+.btn:hover {
+	background-color: blueviolet;
+	color: white;
+}
