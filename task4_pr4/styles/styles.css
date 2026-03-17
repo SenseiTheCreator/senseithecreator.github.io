@@ -1,0 +1,36 @@
+.battery{
+    width:200px;
+    height:60px;
+    border:6px solid black;
+    margin:20px;
+    position:relative; /* Для позиціонування елементів всередині батарейки*/
+    background:#eee;
+}
+.battery::before{
+    content:"";
+    position:absolute; /* Для позиціонування елементів відносно батарейки */
+    right:-14px;
+    top:18px;
+    width:12px;
+    height:24px;
+    background:black;
+}
+.battery::after{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+}
+.Low::after{
+    width:30%;
+    background:#ff1d25;
+}
+.Mid::after{
+    width:65%;
+    background:#ffc20e;
+}
+.High::after{
+    width:100%;
+    background:#0aa34f;
+}
