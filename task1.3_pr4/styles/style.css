@@ -1,0 +1,20 @@
+.v3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+    background: radial-gradient(
+        circle,
+        lightgray 0 40px,
+        yellow 40px 70px,
+        blue 70px 100px
+    );
+}

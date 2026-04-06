@@ -1,0 +1,40 @@
+.v2 {
+    width: 100px;
+    height: 100px;
+    background: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+.v2::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 40px solid yellow;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.v2::after {
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 40px solid blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
