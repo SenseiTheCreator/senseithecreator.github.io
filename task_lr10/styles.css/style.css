@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-image: url("../images/jumbotron.jpg");
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+#topbar {
+    background-color: white;
+    height: 70px;
+    line-height: 70px;
+}
+
+#topbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pn {
+    text-decoration: none;
+    color: #42a5f5;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #333;
+}
+
+.template {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    padding-top: 150px;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ef4b8b;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #d93c77;
+}
+
+#services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.service-card i {
+    font-size: 50px;
+    color: #999;
+    margin-bottom: 25px;
+}
+
+.service-card p {
+    color: #999;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+#blog {
+    padding: 100px 0;
+    background-color: #fafafa;
+}
+
+#blog h2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.photo img {
+    width: 260px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.description {
+    text-align: left;
+}
+
+.description h3 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.date {
+    color: #bbb;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.description p {
+    color: #999;
+    line-height: 1.8;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#about h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.text-about {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.text-about p {
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3f4654;
+    text-align: center;
+    padding: 60px 0;
+}
+
+footer h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.footer-menu {
+    margin-bottom: 25px;
+}
+
+.footer-menu a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-menu a:hover {
+    color: white;
+}
+
+.copyright {
+    color: #bbb;
+    font-size: 12px;
+}
